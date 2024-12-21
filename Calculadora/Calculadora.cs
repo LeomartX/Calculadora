@@ -2,9 +2,10 @@ namespace Calculadora
 {
     public partial class Calculadora : Form
     {
-        // Variables para el c·lculo
+        // Variables para el c√°lculo
         private double num1 = 0;
         private double num2 = 0;
+        private double num3 = 0;
         private string operation = string.Empty;
         private bool isNewOperation = true;
 
@@ -142,7 +143,7 @@ namespace Calculadora
             }
         }
 
-        // MÈtodo para realizar la operaciÛn
+        // M√©todo para realizar la operaci√≥n
         private void PerformOperation()
         {
             switch (operation)
