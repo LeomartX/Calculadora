@@ -6,6 +6,7 @@ namespace Calculadora
         
         private double num1 = 0;
         private double num2 = 0;
+        private double num3 = 0;
         private string operation = string.Empty;
         private bool isNewOperation = true;
 
